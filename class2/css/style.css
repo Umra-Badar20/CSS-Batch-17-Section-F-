@@ -1,6 +1,6 @@
 /* Universal Selector  */
 *{
-    background-color: coral;
+    background-color: coral !important;
 }
 /* Type Selector  */
 h1, span{
