@@ -1,0 +1,32 @@
+/* Universal Selector  */
+*{
+    background-color: coral;
+}
+/* Type Selector  */
+h1, span{
+    background-color: rgb(1, 39, 39);
+}
+/* Child Selector  */
+div>p{
+    color: rgb(80, 54, 186);
+}
+/* Class Selector */
+div.para{
+    background-color: cornflowerblue;
+}
+/* ID Selector */
+#para3{
+    background-color: crimson;
+}
+/* Descendant Selector */
+div span{
+    background-color: cornsilk;
+}
+/* Adjacent Sibling Selector  */
+h1+h2{
+    background-color: aquamarine;
+}
+/* General Sibling Selector */
+h1~h2{
+    background-color: aquamarine;
+}
