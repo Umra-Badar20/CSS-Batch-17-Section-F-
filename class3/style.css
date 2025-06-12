@@ -1,0 +1,55 @@
+@font-face {
+    font-family: "Roboto";
+    src: url(font/Roboto-BlackItalic.ttf);
+}
+
+@font-face {
+    font-family: "Umra";
+    /* Not Preferred */
+    src: url(font/EduNSWACTCursive-Regular.ttf);
+}
+
+body {
+    background-color: rgb(0, 255, 229);
+    /* opacity: 0.5; */
+    /* font-family: "Roboto"; */
+}
+
+h1 {
+    /* font-size: 50px; */
+    /* font-size: 200%; */
+    font-size: 1em;
+}
+
+h2 {
+    font-family: "Umra";
+}
+
+.alumni-sans-sc-para {
+    font-family: "Alumni Sans SC", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+}
+div{
+    background-color: brown;
+    width: 200px;
+    height: 700px;
+    vertical-align: middle;
+    border: 2px groove gray;
+}
+p {
+    font-weight: bold;
+    font-style: italic;
+    text-transform: capitalize;
+    text-decoration: line-through;
+    background-color: burlywood;
+    /* line-height: 20px;
+    word-spacing: 20px;
+    letter-spacing: 10px; */
+    /* text-align: right; */
+   
+}
+a{
+    text-decoration: none;
+}
