@@ -1,0 +1,43 @@
+/* p{
+    text-indent: 30px;
+}
+h1{
+    text-shadow: 2px 2px 2px black;
+    color: pink;
+}
+p::first-letter{
+    font-size: 26px;
+}
+p::first-line{
+   color: blueviolet; 
+}
+span{
+    color: aquamarine;
+}
+a:hover{
+      text-shadow: 2px 2px 2px black;
+}
+a:visited{
+    color: pink;
+}
+img:hover{
+    cursor: pointer;
+}
+button:active{
+    background-color: bisque;
+}
+img:active{
+    height: 500px;
+    width: 700px;
+}
+input:focus{
+    background-color: aquamarine;
+}
+input{
+    height: 20px;
+    border-radius: 15px;
+} */
+.dots{
+    width: 20px;
+    height: 20px;
+}
