@@ -1,0 +1,27 @@
+ul{
+    /* list-style-type: decimal-leading-zero; */
+    /* list-style-image: url(https://cdn-icons-png.flaticon.com/256/2107/2107957.png); */
+    list-style-position: inside;
+}
+table{
+    border: 2px solid black;
+    width: 600px;
+    empty-cells: hide;
+    /* border-collapse: collapse; */
+    border-spacing: 5px 15px;
+    background: #3F5EFB;
+background: radial-gradient(circle, rgba(63, 94, 251, 1) 0%, rgba(158, 65, 158, 1) 33%, rgba(151, 83, 184, 1) 60%, rgba(252, 70, 107, 1) 81%);
+}
+tr.even{
+    background-color: aqua;
+}
+tr.odd{
+    /* background-color: coral; */
+    background: #020024;
+background: linear-gradient(90deg,rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+}
+td:hover{
+    transform: scale(1.2);
+    transition: 2s;
+    background-color: blue;
+}
