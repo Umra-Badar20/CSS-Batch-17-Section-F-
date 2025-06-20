@@ -1,0 +1,98 @@
+* {
+    margin: 0px;
+    overflow: hidden;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  box-sizing: border-box;
+}
+
+.title {
+    display: inline-block;
+    width: 100px;
+}
+
+.legend {
+    border: 1px solid gray;
+    padding: 5px 15px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    background: #003973;
+    background: linear-gradient(90deg, rgba(0, 57, 115, 1) 0%, rgba(229, 229, 189, 1) 90%);
+
+    color: #fff;
+}
+
+#email {
+    background-image: url('https://t4.ftcdn.net/jpg/05/25/22/63/360_F_525226337_x7lLRcnU08vDLkijRwgcbaIs8zCfDktC.jpg');
+    background-size: 28px;
+    background-repeat: no-repeat;
+    padding-left: 23px;
+}
+
+.fields {
+    border: 1px solid black;
+    border-radius: 2px;
+    background-color: transparent;
+    width: 200px;
+}
+
+.fields:focus {
+    outline: none;
+    border: 1.5px solid #003973 !important;
+    border-radius: 2px;
+
+}
+
+.btn-grad {
+    background-image: linear-gradient(to right, #003973 0%, #e5e5bd 51%, #003973 100%)
+}
+
+.btn-grad {
+    margin: 10px;
+    padding: 8px 35px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
+}
+
+.btn-grad:hover {
+    background-position: right center;
+    cursor: pointer;
+    /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+}
+
+.fieldset {
+    width: 350px;
+    border: 1px solid #a9a4a4f5;
+    border-radius: 10px;
+    padding: 20px;
+    float: right;
+    margin: 180px 280px;
+    /* margin: 200px; */
+
+}
+
+.container {
+    height: 100vh;
+    width: 100vw;
+    background-image: url('https://images.unsplash.com/uploads/141103282695035fa1380/95cdfeef?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fHRhYmxlJTIwb2YlMjBjb250ZW50c3xlbnwwfHwwfHx8MA%3D%3D');
+    background-size: cover;
+}
+
+p {
+    font-size: 12px;
+    text-align: center;
+    color: gray;
+}
+
+p>a {
+    text-decoration: none;
+    color: #003973;
+    font-weight: bold;
+}
