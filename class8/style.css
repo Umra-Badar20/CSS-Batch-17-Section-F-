@@ -1,0 +1,54 @@
+@import url(index.css);
+/* .box{
+    width: 500px;
+    height: 500px;
+     background-color: pink; 
+    border: 1px solid black;
+}
+.box2{
+    width: 200px;
+    height: 200px;
+    background-color: blueviolet;
+   img position: absolute;
+    top: 0px;
+    left: 100px; 
+    
+} */
+ .box{
+    width: 30%;
+    height: 100vh;
+    background-color: pink;
+    /* position: absolute; */
+    top: 0px;
+    /* z-index: -1; */
+        float: right;
+
+}
+.box1{
+    width: 70%;
+    height: 100vh;
+    background-color: rgb(45, 41, 42);
+    /* z-index: 1; */
+       clear: right;
+
+}
+.user{
+    width: 12px;
+    position: absolute;
+    top: 6px;
+    right: 3px;
+}
+.main{
+    position: relative;
+    background-color: aquamarine;
+    width: 187px;
+}
+input{
+    padding-left: 20px;
+}
+.wapp{
+    width: 20px;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
