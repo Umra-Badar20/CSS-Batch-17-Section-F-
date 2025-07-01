@@ -1,0 +1,28 @@
+.container{
+    background-color: blue;
+    height: 300px;
+    width: 300px;
+}
+.d-inline{
+    display: inline-block;
+    border-radius: 30px;
+}
+.arrow{
+    font-size: 200px;
+    color: aliceblue;
+}
+@media only screen and (max-width: 576px) {
+  .container{
+    background-color: green;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .container{
+    background-color: rgb(59, 67, 59);
+  }
+}
+@media only screen and (min-width: 992px) {
+  .container{
+    background-color: rgb(254, 43, 67);
+  }
+}
