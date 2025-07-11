@@ -1,0 +1,77 @@
+@font-face {
+    font-family: para ;
+    src: url(font/BitcountGridDouble_Cursive-Regular.ttf);
+}
+
+/* .h{
+    color: rgb(225, 225, 234);
+    text-decoration: underline;
+    background-color: blueviolet;
+}
+#pa{
+    color: red;
+}
+h1 ,p{
+font-family:monospace;
+font-weight: bolder;
+} */
+ *{
+    text-decoration: underline;
+ }
+ body {
+font-family: Arial, Verdana, sans-serif;}
+h1, h2 {
+color: #ee3e80;
+background-color: aqua;}
+
+p {
+color: #665544;}
+li>a{
+    background-color: #ee3e80;
+    border: 4px solid yellow;
+}
+p a{
+    background-color: cadetblue;
+    font-size: xx-large;
+    font-family: fantasy;
+    border: 3px solid red;
+}
+.change{
+    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+    
+}
+
+.bitcount-grid-double  {
+  font-family: "Bitcount Grid Double", system-ui;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0,
+    "CRSV" 0.5,
+    "ELSH" 0,
+    "ELXP" 0;
+}
+.bitcount-grid-double  {
+  font-family: "Bitcount Grid Double", system-ui;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0,
+    "CRSV" 0.5,
+    "ELSH" 0,
+    "ELXP" 0;
+}
+.bitcount-grid-double-para {
+  font-family: "Bitcount Grid Double", system-ui;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0,
+    "CRSV" 0.5,
+    "ELSH" 0,
+    "ELXP" 0;
+}
+
